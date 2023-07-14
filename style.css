@@ -261,4 +261,9 @@ textarea {
         margin-right: 50px;
         margin-left: 50px;
     }
+    .about{
+        margin: 0px;
+        margin-bottom: 30px;
+        padding: 25px;
+    }
 }
