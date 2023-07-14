@@ -70,7 +70,7 @@ nav a {
     justify-content: space-between;
 }
 
-.profile-pic{
+.profile-pic {
     width: 600px;
 }
 
@@ -229,4 +229,36 @@ textarea {
 
 .social-links {
     margin-top: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .about-info-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .about {
+        margin-top: 0px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        margin-top: 25px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
 }
