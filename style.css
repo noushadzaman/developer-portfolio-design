@@ -269,7 +269,7 @@ textarea {
     .header {
         background-image: none;
     }
-
+    
     nav {
         display: none;
     }
@@ -339,14 +339,29 @@ textarea {
             color: black;
         }
     }
+    .btn-secondary {
+        border-radius: 5px;
+        color: #FD6E0A;
+        background: none;
+        border: 1px solid #FD6E0A;
+        font-size: 20px;
+        padding: 18px 35px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1124px) {
     .about-info-container {
         flex-direction: row;
         gap: 20px;
     }
-
+    .header {
+        background: #FFF8F3;
+        background-image: url(./images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: bottom right, left;
+    }
     footer {
         margin: 0px;
         padding: 0px;
@@ -417,5 +432,20 @@ textarea {
         .skill-description {
             color: black;
         }
+    }
+    .btn-secondary {
+        border-radius: 5px;
+        color: #FD6E0A;
+        background: none;
+        border: 1px solid #FD6E0A;
+        font-size: 20px;
+        padding: 18px 35px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+    .banner {
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
     }
 }
