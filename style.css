@@ -471,3 +471,101 @@ textarea {
         justify-content: space-between;
     }
 }
+@media screen and (max-width: 1210px) {
+    .about-info-container {
+        flex-direction: row;
+        gap: 20px;
+    }
+    .header {
+        background: #FFF8F3;
+        background-image: url(./images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: bottom right, left;
+    }
+    footer {
+        margin: 0px;
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .footer-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .banner-title {
+        font-size: 60px;
+        /* text-align: center; */
+    }
+
+    .banner-greeting {
+        margin-top: 50px;
+    }
+
+    .banner-description {
+        text-align: left;
+    }
+
+    .about {
+        margin-top: 0px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        margin-top: 25px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .about {
+        margin: 0px;
+        margin-bottom: 30px;
+        padding: 25px;
+    }
+
+    #do-description {
+        padding-right: 75px;
+        padding-left: 90px;
+    }
+    .skill:hover {
+        background-color: #FD6E0A;
+        transform: rotate(360deg);
+    
+        .skill-description {
+            color: black;
+        }
+    }
+    .btn-secondary {
+        border-radius: 5px;
+        color: #FD6E0A;
+        background: none;
+        border: 1px solid #FD6E0A;
+        font-size: 20px;
+        padding: 18px 35px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+    .banner {
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
