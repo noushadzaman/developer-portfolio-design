@@ -158,6 +158,15 @@ main {
     border-radius: 5px;
 }
 
+.skill:hover {
+    background-color: #FD6E0A;
+    
+    .skill-description {
+        color: black;
+    }
+
+}
+
 .skill-description {
     color: #757575;
     margin-top: 20px;
