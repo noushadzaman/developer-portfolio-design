@@ -68,7 +68,7 @@ nav a {
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
+    padding: 30px 30px 30px 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -331,6 +331,14 @@ textarea {
         padding-right: 75px;
         padding-left: 90px;
     }
+    .skill:hover {
+        background-color: #FD6E0A;
+        transform: rotate(360deg);
+    
+        .skill-description {
+            color: black;
+        }
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -359,12 +367,12 @@ textarea {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .banner-title {
         font-size: 60px;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .banner-greeting {
@@ -372,7 +380,7 @@ textarea {
     }
 
     .banner-description {
-        text-align: center;
+        text-align: left;
     }
 
     .about {
@@ -401,5 +409,13 @@ textarea {
     #do-description {
         padding-right: 75px;
         padding-left: 90px;
+    }
+    .skill:hover {
+        background-color: #FD6E0A;
+        transform: rotate(360deg);
+    
+        .skill-description {
+            color: black;
+        }
     }
 }
