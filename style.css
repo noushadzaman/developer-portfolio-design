@@ -253,39 +253,115 @@ textarea {
         align-items: center;
     }
 
-    /* header {
-        display: none;
-    } */
     .header {
         background-image: none;
     }
-    nav{
+
+    nav {
         display: none;
     }
-    .profile-pic{
+
+    .profile-pic {
         display: none;
     }
-    .banner{
+
+    .banner {
         padding: 0px;
         margin: 0px;
         padding-bottom: 50px;
     }
-    .banner-content{
+
+    .banner-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 60px;
         text-align: center;
     }
-    .banner-greeting{
+
+    .banner-greeting {
         margin-top: 50px;
     }
-    .banner-description{
+
+    .banner-description {
         text-align: center;
     }
+
+    .about {
+        margin-top: 0px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        margin-top: 25px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .about {
+        margin: 0px;
+        margin-bottom: 30px;
+        padding: 25px;
+    }
+
+    #do-description {
+        padding-right: 75px;
+        padding-left: 90px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-info-container {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    footer {
+        margin: 0px;
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .footer-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-title {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .banner-greeting {
+        margin-top: 50px;
+    }
+
+    .banner-description {
+        text-align: center;
+    }
+
     .about {
         margin-top: 0px;
     }
