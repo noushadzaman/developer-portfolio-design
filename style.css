@@ -471,7 +471,7 @@ textarea {
         justify-content: space-between;
     }
 }
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1000px) {
     .about-info-container {
         flex-direction: row;
         gap: 20px;
@@ -505,22 +505,6 @@ textarea {
         align-items: flex-start;
     }
 
-    .banner-title {
-        font-size: 60px;
-        /* text-align: center; */
-    }
-
-    .banner-greeting {
-        margin-top: 50px;
-    }
-
-    .banner-description {
-        text-align: left;
-    }
-
-    .about {
-        margin-top: 0px;
-    }
 
     .skills-container {
         flex-direction: column;
