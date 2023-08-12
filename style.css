@@ -152,7 +152,7 @@ main {
 }
 
 .info-title {
-    color: #757575;
+    margin-bottom: 10px;
 }
 
 #do-description {
@@ -248,14 +248,18 @@ footer {
 
 .contact input,
 textarea {
+    border-radius: 5px;
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
     border: none;
 }
 
-.social-links a {
+.social-links > a {
     margin-right: 25px;
+}
+.social-links > a :hover {
+    transform: scale(1.5);
 }
 
 .social-links {
