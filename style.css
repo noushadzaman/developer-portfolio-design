@@ -16,6 +16,7 @@ nav {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .text-primary {
@@ -29,6 +30,7 @@ nav {
     border: none;
     font-size: 20px;
     padding: 18px 35px;
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -39,6 +41,7 @@ nav {
     font-size: 20px;
     padding: 18px 35px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 nav>ul {
